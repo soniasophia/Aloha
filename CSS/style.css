@@ -439,12 +439,12 @@ template {
 
 @font-face {
     font-family: 'ralewaylight';
-    src: url('./fonts/raleway-light-webfont.eot');
-    src: url('./fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/raleway-light-webfont.woff2') format('woff2'),
-         url('./fonts/raleway-light-webfont.woff') format('woff'),
-         url('./fonts/raleway-light-webfont.ttf') format('truetype'),
-         url('./fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    src: url('../fonts/raleway-light-webfont.eot');
+    src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -455,12 +455,12 @@ template {
 
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('./fonts/raleway-medium-webfont.eot');
-    src: url('./fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/raleway-medium-webfont.woff2') format('woff2'),
-         url('./fonts/raleway-medium-webfont.woff') format('woff'),
-         url('./fonts/raleway-medium-webfont.ttf') format('truetype'),
-         url('./fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -471,12 +471,12 @@ template {
 
 @font-face {
     font-family: 'playfair_displaybold';
-    src: url('./fonts/playfairdisplay-bold-webfont.eot');
-    src: url('./fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
-         url('./fonts/playfairdisplay-bold-webfont.woff') format('woff'),
-         url('./fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
-         url('./fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -487,12 +487,12 @@ template {
 
 @font-face {
     font-family: 'playfair_displayregular';
-    src: url('./fonts/playfairdisplay-regular-webfont.eot');
-    src: url('./fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('./fonts/playfairdisplay-regular-webfont.woff') format('woff'),
-         url('./fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('./fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -503,12 +503,12 @@ template {
 
 @font-face {
     font-family: 'ralewaylight_italic';
-    src: url('./fonts/raleway-lightitalic-webfont.eot');
-    src: url('./fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
-         url('./fonts/raleway-lightitalic-webfont.woff') format('woff'),
-         url('./fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
-         url('./fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+    src: url('../fonts/raleway-lightitalic-webfont.eot');
+    src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -519,12 +519,12 @@ template {
 
 @font-face {
     font-family: 'ralewaymedium_italic';
-    src: url('./fonts/raleway-mediumitalic-webfont.eot');
-    src: url('./fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
-         url('./fonts/raleway-mediumitalic-webfont.woff') format('woff'),
-         url('./fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
-         url('./fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    src: url('../fonts/raleway-mediumitalic-webfont.eot');
+    src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -535,12 +535,12 @@ template {
 
 @font-face {
     font-family: 'playfair_displaybold_italic';
-    src: url('./fonts/playfairdisplay-bolditalic-webfont.eot');
-    src: url('./fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
-         url('./fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
-         url('./fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-         url('./fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -551,12 +551,12 @@ template {
 
 @font-face {
     font-family: 'playfair_displayitalic';
-    src: url('./fonts/playfairdisplay-italic-webfont.eot');
-    src: url('./fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
-         url('./fonts/playfairdisplay-italic-webfont.woff') format('woff'),
-         url('./fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
-         url('./fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    src: url('../fonts/playfairdisplay-italic-webfont.eot');
+    src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -566,63 +566,59 @@ template {
 
 body, html {
   margin: 0;
+  font-size: 16px;
 }
 
-.top-bar {
-  position: relative;
-  height: 50px;
-  vertical-align: middle;
+header {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  top: 0;
-  max-width: 12%;
-  vertical-align: middle;
-  bottom: 0;
-  margin: auto 40px;
-  margin-top:-15px;
-  position: absolute;
-  left: 0;
+  max-width: 150px;
+  align-self: flex-start;
+  order: 1;
 }
 
-.navigation li {
-  display: inline-block;
-  margin: 10px;
- 
+.navigation {
+  font-weight: 500;
+  align-self: center;
+  order: 2;
 }
 
 .navigation a {
   text-decoration: none;
   font-family: 'ralewaymedium';
-  font-size: 14px;
-  color: red;
-}
-
-.navigation {
-  margin: 27px 500px;
-  width: 26%;
+  font-size: 1rem;
+  color: #d80000;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 10px;
 }
 
 .cart {
-  top: 0;
-  max-width: 4%;
-  position: absolute;
-  margin: auto 40px;
-  margin-top:-9px;
-  right: 0;
-  bottom: 0;
+  max-width: 60px;
+  order: 3;
 }
 
 .banner {
-  background: url('./images/banner-girl.png') no-repeat center,
-              url('./images/flower-bkgd.jpg' )no-repeat center;
-
-              height: 550px;
-              width: 100%;
-              margin: 0;
+  height: 550px;
+  width: 100%;
+  
+  background: 
+  linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(100,100,100,0.3)),
+  url('../images/banner-girl.png') no-repeat center,
+  url('../images/flower-bkgd.jpg') repeat center;
+  background-size: auto, 250px, 850px;
+  background-position:
+    left 0 top 0,
+    left 50% bottom -120px,
+    left 0 top 0;
+  position: relative;          
 }
-
-
 
 .banner p {
   text-align: center;
@@ -633,10 +629,158 @@ body, html {
 }
 
 .banner p.collection {
-  font-size: 12px;
-  font-family: 
+  font-size: 1.25rem;
+  font-family: 'ralewaymedium';
+  padding-top: 220px;
+  margin-top: 0;
 }
 
 .banner p.season {
-  font-size: 35px;
+  font-size: 4rem;
+  font-family: 'playfair_displayregular';
 }
+
+.description {
+  padding: 40px;
+}
+
+.description p {
+  font-family: 'ralewaylight';
+  font-size: 1rem;
+  color: #716f70;
+  max-width: 590px;
+  margin: auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'playfair_displaybold';
+  padding: 10px;
+  margin: 10px;
+  font-size: 2.25rem;
+}
+
+h2 span {
+  font-family: 'playfair_displayitalic';
+}
+
+
+.products li {
+  display: inline-block;
+  text-align: center;
+}
+
+
+.products ul {
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.products p {
+  font-family: 'ralewaylight';
+  font-size: 0.625rem;
+  color: #716f70;
+  text-transform: uppercase;
+}
+
+.products h3 {
+  font-family: 'playfair_displayregular';
+  font-size: 1rem;
+  color: #d80000;
+}
+
+.signup {
+  height: 350px;
+  width: 100%;
+  
+  background:
+  linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
+  
+  url('../images/wave-bkgd.jpg') center bottom no-repeat;
+  background-size: 125%;
+  background-position: 
+  left 0 bottom 0,
+  left -100px bottom -30px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.signup p {
+  font-family: 'ralewaylight';
+  font-size: 1rem;
+  color: #fff;
+  max-width: 590px;
+  margin: auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+.signup h2 {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+input[type="email"] {
+  border-radius: 20px;
+  height: 41px;
+  width: 360px;
+  border:none;
+  font-family: 'ralewaylight';
+  padding-left: 20px;
+  font-size: 0.87rem;
+}
+
+form.email {
+  position: absolute;
+  left: 500px;
+  padding-top: 65px;
+}
+
+button {
+  border-radius: 20px;
+  height: 35px;
+  border:none;
+  font-family: 'ralewaylight';
+  color: #fff;
+  background-color: #d80000;
+  width: 100px;
+  font-size: 0.87rem;
+  margin-left: -108px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #292929;
+  color: #fff;
+  font-family: 'playfair_displayregular';
+  padding: 40px;
+  line-height: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.company-details span {
+  color: #716f70;
+}
+
+.social-media {
+  align-items: center;
+  
+}
+
+.social-media li {
+  list-style: none;
+  line-height: 30px;
+  font-family: 'ralewaylight';
+  text-align: left;
+}
+
