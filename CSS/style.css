@@ -749,7 +749,8 @@ button {
   background-color: #d80000;
   width: 100px;
   font-size: 0.87rem;
-  margin-left: -108px;
+  margin-left: -105px;
+  margin-top: 4px;
   cursor: pointer;
 }
 
@@ -762,7 +763,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
 
 
 footer a {
