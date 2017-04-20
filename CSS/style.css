@@ -735,9 +735,9 @@ input[type="email"] {
 }
 
 form.email {
-  position: absolute;
-  left: 500px;
-  padding-top: 65px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
 }
 
 button {
@@ -753,7 +753,7 @@ button {
   cursor: pointer;
 }
 
-.footer {
+footer {
   background-color: #292929;
   color: #fff;
   font-family: 'playfair_displayregular';
@@ -763,7 +763,9 @@ button {
   justify-content: space-between;
 }
 
-.footer a {
+
+
+footer a {
   text-decoration: none;
   color: #fff;
 }
@@ -773,7 +775,10 @@ button {
 }
 
 .social-media {
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
   
 }
 
