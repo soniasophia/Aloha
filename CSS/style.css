@@ -588,11 +588,12 @@ header {
   font-weight: 500;
   align-self: center;
   order: 3;
-  justify-content: space-between;
+  justify-content: space-around;
   border-top: 1px solid #d7d7d7;
   flex-grow: 2;
   display: flex;
   margin-top: 10px;
+  padding-top: 15px;
 }
 
 .navigation a {
@@ -630,8 +631,6 @@ header {
 .banner p {
   text-align: center;
   margin: 15px auto;
-  clear: both;
-  z-index: 100;
   color: #fff;
 }
 
@@ -649,7 +648,6 @@ header {
 
 .description {
   padding: 40px;
-  margin-bottom: 30px;
 }
 
 .description p {
@@ -671,6 +669,10 @@ header {
     text-transform: uppercase;
     font-size: 2.1875rem;
     color: #fff;
+}
+
+.categories p {
+  margin: 6px 0 6px;
 }
 
 .mens {
@@ -817,7 +819,7 @@ h2 span {
   left 0 bottom 0,
   left -100px bottom -30px;
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .signup p {
@@ -873,7 +875,9 @@ footer {
   padding: 40px;
   line-height: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 footer a {
@@ -886,10 +890,10 @@ footer a {
 }
 
 .social-media {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex: 1;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: flex-end;*/
+  /*flex: 1;*/
   
 }
 
@@ -900,3 +904,14 @@ footer a {
   text-align: left;
 }
 
+@media screen (min-width: 600px) {
+
+}
+
+
+
+
+
+@media screen (min-width: 1240px) {
+ 
+}
