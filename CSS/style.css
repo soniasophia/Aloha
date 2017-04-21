@@ -581,12 +581,18 @@ header {
   max-width: 150px;
   align-self: flex-start;
   order: 1;
+  margin: 3px;
 }
 
 .navigation {
   font-weight: 500;
   align-self: center;
-  order: 2;
+  order: 3;
+  justify-content: space-between;
+  border-top: 1px solid #d7d7d7;
+  flex-grow: 2;
+  display: flex;
+  margin-top: 10px;
 }
 
 .navigation a {
@@ -601,7 +607,8 @@ header {
 
 .cart {
   max-width: 60px;
-  order: 3;
+  order: 2;
+  margin: 3px;
 }
 
 .banner {
@@ -617,7 +624,7 @@ header {
     left 0 top 0,
     left 50% bottom -120px,
     left 0 top 0;
-  position: relative;          
+  position: relative;   
 }
 
 .banner p {
@@ -658,10 +665,10 @@ header {
 
 .categories {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     font-family: 'ralewaymedium';
     text-transform: uppercase;
-    flex-wrap: wrap;
     font-size: 2.1875rem;
 }
 
@@ -669,7 +676,9 @@ header {
   flex-grow: 2;
 
   background: 
+  linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
   url(../images/mens-category.jpg) center center no-repeat;
+ 
   background-size: 100%;
   height: 240px;
   width: 100%;
@@ -677,6 +686,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4px;
 }
 
 .trends {
@@ -684,15 +694,17 @@ header {
 
   background: 
   url(../images/trends-category.jpg) center center no-repeat;
+  
   background-size: 100%;
-
+  height: 230px;
   max-width: 100%;
-  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin: 4px 10px 10px 0;
 }
+
+
 
 
 
