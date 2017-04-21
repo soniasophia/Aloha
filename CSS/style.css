@@ -155,6 +155,7 @@ header {
   display: flex;
   margin-top: 10px;
   padding-top: 15px;
+  list-style: none;
 }
 
 .navigation a {
