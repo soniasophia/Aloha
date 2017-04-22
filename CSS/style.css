@@ -237,12 +237,16 @@ section {
 
 .categories {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    font-family: 'ralewaymedium';
-    text-transform: uppercase;
-    font-size: 2.1875rem;
-    color: #fff;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+    /*font-family: 'ralewaymedium';*/
+    /*text-transform: uppercase;*/
+    /*font-size: 2.1875rem;*/
+    /*color: #fff;*/
 }
 
 .categories p {
@@ -389,7 +393,7 @@ h2 span {
   font-family: 'ralewaylight';
   font-size: 1rem;
   color: #fff;
-  margin: 0;
+  margin-bottom: 2%;
   text-align: center;
   line-height: 30px;
   text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
@@ -413,7 +417,7 @@ input[type="email"] {
 form.email {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 5%;
 }
 
 /*Add box shadow to email form*/
