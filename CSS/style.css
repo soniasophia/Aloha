@@ -108,12 +108,16 @@ section {
 
 h2 {
   text-align: center;
-  font-family: 'playfair_displaybold';
+  font-family: 'playfair';
   font-size: 2.25rem;
+  font-weight: bold;
+  font-style: normal;
 }
 
 h2 span {
-  font-family: 'playfair_displayitalic';
+  font-family: 'playfair';
+  font-weight: normal;
+  font-style: italic;
 }
 
 .top-bar {
@@ -161,6 +165,8 @@ h2 span {
 .navigation a {
   text-decoration: none;
   font-family: 'ralewaymedium';
+  font-weight: normal;
+  font-style: normal;
   font-size: 0.85rem;
   color: #e2574c;
   cursor: pointer;
@@ -206,7 +212,6 @@ h2 span {
     position: absolute;
     text-align: center;
     text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
-    text-transform: uppercase;
     width: 80%;
 }
 
@@ -218,11 +223,16 @@ h2 span {
 .banner p.collection {
   font-size: 1rem;
   font-family: 'ralewaymedium';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .banner p.season {
   font-size: 2rem;
-  font-family: 'playfair_displayregular';
+  font-family: 'playfair';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .description {
@@ -231,6 +241,8 @@ h2 span {
 
 .description p {
   font-family: 'ralewaylight';
+  font-weight: normal;
+  font-style: normal;
   font-size: 1rem;
   color: #716f70;
   max-width: 590px;
@@ -256,6 +268,7 @@ h2 span {
 .small-category {
   flex: 1 0 50%;
   max-width: 50%;
+  border-left: 0;
 }
 
 .big-category, .small-category {
@@ -264,12 +277,35 @@ h2 span {
     height: 250px;
 }
 
+
+.category-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    height: auto;
+    left: 50%;
+    line-height: 1;
+    position: absolute;
+    text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.category-name a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
 .big-category.mens {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
   url(../images/mens-category.jpg) no-repeat 50%;
  
   background-size: cover, cover;
+  border-right: 0;
+  border-left: 0;
 }
 
 .small-category.trends {
@@ -278,6 +314,7 @@ h2 span {
   url(../images/trends-category.jpg) no-repeat 50%;
   
   background-size: cover, cover;
+  border-left: 0;
 }
 
 
@@ -287,6 +324,7 @@ h2 span {
   url(../images/glasses-category.jpg) no-repeat 50%;
   
   background-size: cover, cover;
+  border-left: 0;
 }
 
 .sale {
@@ -295,6 +333,7 @@ h2 span {
   url(../images/sale-category.jpg) no-repeat 50%;
   
   background-size: cover, cover;
+  border-left: 0;
 }
 
 
@@ -304,6 +343,7 @@ h2 span {
   url(../images/bags-category.jpg) no-repeat 50%;
   
   background-size: cover, cover;
+  border-left: 0;
 }
 
 .womens {
@@ -312,6 +352,8 @@ h2 span {
   url(../images/womens-category.jpg) no-repeat 50%;
  
   background-size: cover, cover;
+  border-left: 0;
+  border-right: 0;
 }
 
 
@@ -329,13 +371,17 @@ h2 span {
 
 .products p {
   font-family: 'ralewaylight';
+  font-weight: normal;
+  font-style: normal;
   font-size: 0.625rem;
   color: #716f70;
   text-transform: uppercase;
 }
 
 .products h3 {
-  font-family: 'playfair_displayregular';
+  font-family: 'playfair';
+  font-weight: normal;
+  font-style: normal;
   font-size: 1rem;
   color: #e2574c;
 }
@@ -349,6 +395,8 @@ h2 span {
 
 .signup p {
   font-family: 'ralewaylight';
+  font-weight: normal;
+  font-style: normal;
   font-size: 1rem;
   color: #fff;
   margin-bottom: 2%;
@@ -368,6 +416,8 @@ input[type="email"] {
   width: 360px;
   border:none;
   font-family: 'ralewaylight';
+  font-weight: normal;
+  font-style: normal;
   padding-left: 20px;
   font-size: 0.87rem;
 }
@@ -385,6 +435,8 @@ button {
   height: 35px;
   border:none;
   font-family: 'ralewaylight';
+  font-weight: normal;
+  font-style: normal;
   color: #fff;
   background-color: #e2574c;
   width: 100px;
@@ -397,7 +449,9 @@ button {
 .website-footer {
   background-color: #292929;
   color: #fff;
-  font-family: 'playfair_displayregular';
+  font-family: 'playfair';
+  font-weight: normal;
+  font-style: normal;
   padding: 10%;
   line-height: 10px;
   display: flex;
@@ -425,6 +479,8 @@ button {
 .social-media li {
   list-style: none;
   font-family: 'ralewaylight';
+  font-weight: normal;
+  font-style: normal;
   text-align: left;
   display: inline-block;
   margin: 1.5%;
