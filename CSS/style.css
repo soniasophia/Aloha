@@ -176,12 +176,31 @@ section {
   
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(100,100,100,0.25)),
-  url('../images/banner-girl.png') no-repeat center 60px,
+  
+  url('../images/banner-girl.png') no-repeat center 100px,
   url('../images/flower-bkgd.jpg') repeat-x top;
+  
   background-size: cover, 150px 370px, cover;
   height: 400px;
-  position: relative;   
+  position: relative;  
+  padding-bottom: 0; 
 }
+
+
+.banner-text {
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
+    text-transform: uppercase;
+    width: 80%;
+}
+
+
 
 .banner p {
   text-align: center;
@@ -192,9 +211,8 @@ section {
 .banner p.collection {
   font-size: 1rem;
   font-family: 'ralewaymedium';
-  padding-top: 35%;
-  margin-top: 0;
-  text-transform: uppercase;
+  /*padding-top: 33%;*/
+  /*margin-top: 0;*/
 }
 
 .banner p.season {
@@ -374,12 +392,12 @@ h2 span {
   margin: 0;
   text-align: center;
   line-height: 30px;
-  text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+  text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
 }
 
 .signup h2 {
   color: #fff;
-  text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+  text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
 }
 
 input[type="email"] {
