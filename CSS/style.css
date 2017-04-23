@@ -362,21 +362,16 @@ h2 span {
 
 
 .products-list {
+  justify-content: center;
   display: block;
   text-align: center;
-}
-
-
-.products-list {
-  margin: 80px auto;
-  justify-content: center;
 }
 
 .products-list p {
   font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   color: #716f70;
   text-transform: uppercase;
 }
@@ -385,9 +380,15 @@ h2 span {
   font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #e2574c;
 }
+
+
+.flickity-prev-next-button {
+  display: none;
+}
+
 
 .signup {
   background: 
