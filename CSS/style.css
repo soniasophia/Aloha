@@ -108,14 +108,14 @@ section {
 
 h2 {
   text-align: center;
-  font-family: 'playfair';
+  font-family: 'playfair', serif;
   font-size: 2.25rem;
   font-weight: bold;
   font-style: normal;
 }
 
 h2 span {
-  font-family: 'playfair';
+  font-family: 'playfair', serif;
   font-weight: normal;
   font-style: italic;
 }
@@ -164,7 +164,7 @@ h2 span {
 
 .navigation a {
   text-decoration: none;
-  font-family: 'ralewaymedium';
+  font-family: 'ralewaymedium', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 0.85rem;
@@ -222,7 +222,7 @@ h2 span {
 
 .banner p.collection {
   font-size: 1rem;
-  font-family: 'ralewaymedium';
+  font-family: 'ralewaymedium', sans-serif;
   font-weight: normal;
   font-style: normal;
   text-transform: uppercase;
@@ -230,7 +230,7 @@ h2 span {
 
 .banner p.season {
   font-size: 2rem;
-  font-family: 'playfair';
+  font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -240,7 +240,7 @@ h2 span {
 }
 
 .description p {
-  font-family: 'ralewaylight';
+  font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -370,7 +370,7 @@ h2 span {
 }
 
 .products p {
-  font-family: 'ralewaylight';
+  font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 0.625rem;
@@ -379,7 +379,7 @@ h2 span {
 }
 
 .products h3 {
-  font-family: 'playfair';
+  font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -394,7 +394,7 @@ h2 span {
 }
 
 .signup p {
-  font-family: 'ralewaylight';
+  font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -415,7 +415,7 @@ input[type="email"] {
   height: 41px;
   width: 360px;
   border:none;
-  font-family: 'ralewaylight';
+  font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
   padding-left: 20px;
@@ -434,7 +434,7 @@ button {
   border-radius: 20px;
   height: 35px;
   border:none;
-  font-family: 'ralewaylight';
+  font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #fff;
@@ -449,7 +449,7 @@ button {
 .website-footer {
   background-color: #292929;
   color: #fff;
-  font-family: 'playfair';
+  font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
   padding: 10%;
@@ -478,7 +478,7 @@ button {
 
 .social-media li {
   list-style: none;
-  font-family: 'ralewaylight';
+  font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
   text-align: left;
@@ -489,6 +489,7 @@ button {
 .sm-name {
   display: none;
 }
+
 
 @media screen and (min-width: 600px) {
 
