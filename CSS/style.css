@@ -365,6 +365,7 @@ h2 span {
   justify-content: center;
   display: block;
   text-align: center;
+  width: 100%;
 }
 
 .products-list p {
