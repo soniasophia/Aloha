@@ -251,6 +251,10 @@ h2 span {
   line-height: 35px;
 }
 
+.categories {
+  padding: 0;
+}
+
 
 .product-categories {
     display: flex;
@@ -318,16 +322,16 @@ h2 span {
 }
 
 
-.glasses {
+.small-category.glasses {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
   url(../images/glasses-category.jpg) no-repeat 50%;
   
   background-size: cover, cover;
-  border-left: 0;
+  border-right: 0;
 }
 
-.sale {
+.small-category.sale {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
   url(../images/sale-category.jpg) no-repeat 50%;
@@ -337,13 +341,13 @@ h2 span {
 }
 
 
-.bags {
+.small-category.bags {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
   url(../images/bags-category.jpg) no-repeat 50%;
   
   background-size: cover, cover;
-  border-left: 0;
+  border-right: 0;
 }
 
 .womens {
