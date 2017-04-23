@@ -103,6 +103,10 @@ body, html {
   color: #2d2d2d;
 }
 
+:focus {
+  outline: 0;
+}
+
 section {
   padding: 3rem 0;
 }
