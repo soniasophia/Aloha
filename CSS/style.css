@@ -244,7 +244,7 @@ h2 span {
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
-  color: #716f70;
+  color: #969696;
   max-width: 590px;
   margin: auto;
   text-align: center;
@@ -361,19 +361,18 @@ h2 span {
 }
 
 
-.products li {
-  display: inline-block;
+.products-list {
+  display: block;
   text-align: center;
 }
 
 
-.products ul {
+.products-list {
   margin: 80px auto;
-  display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.products p {
+.products-list p {
   font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -382,7 +381,7 @@ h2 span {
   text-transform: uppercase;
 }
 
-.products h3 {
+.products-list h3 {
   font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
@@ -451,7 +450,7 @@ button {
 }
 
 .website-footer {
-  background-color: #292929;
+  background-color: #242424;
   color: #fff;
   font-family: 'playfair', serif;
   font-weight: normal;
@@ -471,7 +470,7 @@ button {
 }
 
 .company-details span {
-  color: #716f70;
+  color: #969696;
 }
 
 .social-media ul {
