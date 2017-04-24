@@ -216,7 +216,7 @@ a:hover {
     font-weight: 700;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-40%);
     line-height: 1;
     position: absolute;
     text-align: center;
@@ -246,6 +246,7 @@ a:hover {
 
 .description {
   padding: 40px;
+  padding-bottom: 70px;
 }
 
 .description p {
@@ -426,6 +427,7 @@ a:hover {
   text-align: center;
   line-height: 30px;
   text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
+  padding: 0 2%;
 }
 
 .signup h2 {
@@ -462,13 +464,10 @@ input[type="submit"] {
     cursor: pointer;
     font-weight: 700;
     padding: .5rem 1.5rem;
-    position: absolute;
-    right: .9rem;
-    top: .3rem;
     border: none;
     border-radius: 25px;
-    font-family: 'ralewaylight', sans-serif;
-    font-size: 0.87rem;
+    font-family: 'ralewaymedium', sans-serif;
+    font-size: 0.9rem;
     outline: 0;
 }
 
@@ -485,11 +484,8 @@ input[type="submit"]:hover {
   font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
-  padding: 10%;
+  padding: 5%;
   line-height: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   text-align: center;
   font-size: 0.9rem;
 }
@@ -507,9 +503,8 @@ input[type="submit"]:hover {
 }
 
 .social-media ul {
-  justify-content: center;
   padding-left: 0;
-  margin-top: 20%;
+  margin-top: 7%;
 }
 
 .social-media li {
@@ -532,6 +527,11 @@ input[type="submit"]:hover {
 
 
 @media screen and (min-width: 600px) {
+
+h2 {
+  font-size: 2.4rem;
+}
+
 
 .top-bar {
   display: flex;
@@ -560,6 +560,81 @@ input[type="submit"]:hover {
   border: none;
 }
 
+.banner {
+  height: 350px;
+
+  background: 
+  linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(100,100,100,0.25)),
+  
+  url('../images/banner-girl.png') no-repeat center 60px,
+  url('../images/flower-bkgd.jpg') repeat-x top;
+  
+  background-size: cover, 155px 375px, cover;
+
+  position: relative;  
+  padding-bottom: 0; 
+}
+
+.banner p.collection {
+  font-size: 1.2rem;
+}
+
+.banner p.season {
+  font-size: 3rem;
+}
+
+.products-list {
+  width: 50%;
+}
+
+
+.signup p {
+  font-size: 1.2rem;
+  padding: 0 2%;
+}
+
+
+.website-footer {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+
+}
+
+.website-footer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.company-details {
+  font-size: 1rem;
+  line-height: 15px;
+  padding-left: 3%;
+}
+
+
+.social-media {
+  width: 20%;
+  line-height: 30px;
+}
+
+.social-media li {
+  display: block;
+}
+
+.social-media ul {
+  font-size: 1rem;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.sm-name {
+  display: inline;
+}
 
 }
 
@@ -568,5 +643,62 @@ input[type="submit"]:hover {
 
 
 @media screen and (min-width: 1240px) {
- 
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin: 0 8%;
+}
+
+.logo img {
+  max-width: 160px;
+}
+
+.logo {
+  padding-bottom: 0;
+}
+
+.cart {
+  width: 62px;
+  padding-bottom: 0;
+}
+
+.navigation a {
+  font-size: 1rem;
+}
+
+
+.banner {
+  background-size: cover,250px 615px,contain;
+  height: 550px;
+  position: relative;
+}
+
+.banner-text {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-70%);
+}
+
+.banner p.collection {
+  font-size: 1.35rem;
+}
+
+.banner p.season {
+  font-size: 4rem;
+}
+
+
+.products-list {
+  width: 25%;
+}
+
+.company-details {
+  width: 50%;
+}
+
+
+
+
+
 }
