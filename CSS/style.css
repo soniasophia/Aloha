@@ -221,7 +221,7 @@ a:hover {
     font-weight: 700;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%,-15%);
     line-height: 1;
     position: absolute;
     text-align: center;
@@ -582,6 +582,12 @@ h2 {
   padding-bottom: 0; 
 }
 
+.banner-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-30%);
+}
+
 .banner p.collection {
   font-size: 1.2rem;
 }
@@ -684,7 +690,7 @@ h2 {
 .banner-text {
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-70%);
+    transform: translate(-50%,-50%);
 }
 
 .banner p.collection {
