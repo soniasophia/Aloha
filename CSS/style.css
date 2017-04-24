@@ -100,7 +100,6 @@
   box-sizing: border-box;
 }
 
-
 body, html {
   margin: 0;
   padding: 0;
@@ -217,7 +216,6 @@ a:hover {
   padding-bottom: 0; 
 }
 
-
 .banner-text {
     font-weight: 700;
     left: 50%;
@@ -274,7 +272,6 @@ a:hover {
   text-align: center;
 }
 
-
 .big-category {
   flex: 2 0 100%;
   border-right: 0;
@@ -293,7 +290,6 @@ a:hover {
     border: 4px solid #fff;
     position: relative;
 }
-
 
 .category-name {
     font-family: 'Raleway', sans-serif;
@@ -319,7 +315,6 @@ a:hover {
   color: 	#FFFACD;
 }
 
-
 .big-category.mens {
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(100,100,100,0.2)),
@@ -337,9 +332,7 @@ a:hover {
   
   background-size: cover, cover;
   border-left: 0;
-
 }
-
 
 .small-category.glasses {
   background: 
@@ -348,7 +341,6 @@ a:hover {
   
   background-size: cover, cover;
   border-right: 0;
- 
 }
 
 .small-category.sale {
@@ -358,9 +350,7 @@ a:hover {
   
   background-size: cover, cover;
   border-left: 0;
-
 }
-
 
 .small-category.bags {
   background: 
@@ -369,7 +359,6 @@ a:hover {
   
   background-size: cover, cover;
   border-right: 0;
-  
 }
 
 .womens {
@@ -380,9 +369,7 @@ a:hover {
   background-size: cover, cover;
   border-left: 0;
   border-right: 0;
-
 }
-
 
 .products-list {
   justify-content: center;
@@ -400,7 +387,6 @@ a:hover {
   text-transform: uppercase;
 }
 
-
 .products-list span {
   font-size: 1rem;
 }
@@ -413,11 +399,9 @@ a:hover {
   color: #e2574c;
 }
 
-
 .flickity-prev-next-button {
   display: none;
 }
-
 
 .signup {
   background: 
@@ -453,7 +437,6 @@ input[type="email"] {
     font-size: 1.2rem;
 }
 
-
 input[type="email"]:focus {
   outline:0;
   box-shadow: 1px 1px 6px hsla(0,0%,39%,.8);
@@ -465,7 +448,6 @@ form.email {
     position: relative;
     width: 90%;
 }
-
 
 input[type="submit"] {
     background-color: #e2574c;
@@ -483,12 +465,9 @@ input[type="submit"] {
     top: .25rem;
 }
 
-
 input[type="submit"]:hover {
   background-color: #b64036;
 }
-
-
 
 .website-footer {
   background-color: #242424;
@@ -548,7 +527,6 @@ h2 {
   font-size: 2.4rem;
 }
 
-
 .top-bar {
   display: flex;
   flex-wrap: nowrap;
@@ -605,7 +583,6 @@ h2 {
   font-size: 3rem;
 }
 
-
 .big-category {
   flex: 2 0 50%;
   border-right: 0;
@@ -650,7 +627,6 @@ h2 {
   width: 50%;
 }
 
-
 .signup p {
   font-size: 1.2rem;
   padding: 0 2%;
@@ -667,7 +643,6 @@ input[type="email"] {
 input[type="submit"] {
   padding: 0.7rem 1.5rem;
 }
-
 
 .website-footer {
   text-align: left;
@@ -688,7 +663,6 @@ input[type="submit"] {
   line-height: 15px;
   padding-left: 1%;
 }
-
 
 .social-media {
   width: 20%;
@@ -715,11 +689,9 @@ input[type="submit"] {
 
 
 
-
-
 @media screen and (min-width: 1240px) {
 
-  body, html {
+body, html {
     font-size: 16px;
   }
 
@@ -746,7 +718,6 @@ input[type="submit"] {
   font-size: 1rem;
 }
 
-
 .banner {
   background-size: cover,250px 615px,contain;
   height: 550px;
@@ -767,7 +738,6 @@ input[type="submit"] {
   font-size: 4rem;
 }
 
-
 .products-list {
   width: 25%;
 }
@@ -777,12 +747,9 @@ input[type="submit"] {
   padding-right: 26%;
 }
 
-
 form.email {
   width: 40%;
 }
-
-
 
 .company-details {
   width: 50%;
@@ -795,9 +762,5 @@ form.email {
 .social-media ul {
   margin-top: 0;
 }
-
-
-
-
 
 }
