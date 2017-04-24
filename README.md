@@ -17,4 +17,4 @@
 
 - Handling background images takes a specific type of patience.
 
-- How to abstract code a little bit better for more efficient styling. Definitely still learning how to do this.
+- How to abstract code a little bit better for more efficient styling. Trying to be more mindful of this.
