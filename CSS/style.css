@@ -259,10 +259,10 @@ a:hover {
   font-style: normal;
   font-size: 1.3rem;
   color: #2d2d2d;
-  max-width: 590px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   line-height: 35px;
+  width: 90%;
 }
 
 .categories {
@@ -583,6 +583,11 @@ h2 {
   font-size: 3rem;
 }
 
+
+.description p {
+  width: 60%;
+}
+
 .big-category {
   flex: 2 0 50%;
   border-right: 0;
@@ -630,6 +635,8 @@ h2 {
 .signup p {
   font-size: 1.2rem;
   padding: 0 2%;
+  margin: 0 auto;
+  width: 70%;
 }
 
 form.email {
@@ -738,6 +745,10 @@ body, html {
   font-size: 4rem;
 }
 
+.description p {
+  width: 60%;
+}
+
 .products-list {
   width: 25%;
 }
@@ -745,6 +756,8 @@ body, html {
 .signup p {
   padding-left: 26%;
   padding-right: 26%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 form.email {
