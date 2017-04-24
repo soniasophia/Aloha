@@ -533,6 +533,34 @@ input[type="submit"]:hover {
 
 @media screen and (min-width: 600px) {
 
+.top-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-bottom: .5rem;
+  padding-top: 1rem;
+}
+
+.logo {
+  order: 1;
+  flex-basis: 10%;
+}
+
+.cart {
+  order: 3;
+  flex-basis: 10%;
+}
+
+.navigation {
+  order: 2;
+  flex-basis: 60%;
+}
+
+.navigation ul {
+  border: none;
+}
+
+
 }
 
 
