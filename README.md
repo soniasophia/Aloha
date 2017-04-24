@@ -1,4 +1,4 @@
-##Technologies Used
+## Technologies Used
 - Visual Studio Code for Mac (https://code.visualstudio.com/)
 - Git and Git Bash
 - Flickity (http://flickity.metafizzy.co/)
@@ -12,7 +12,7 @@
 
 
 
-##Personal Learnings
+## Personal Learnings
 - My understanding of flexbox was heavily explored in this project and suspect that I will use the layout module more efficiently as I gain more practice with other projects.
 
 - Handling background images takes a specific type of patience.
