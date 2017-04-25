@@ -549,7 +549,7 @@ h2 {
 
 .cart {
   order: 3;
-  flex-basis: 10%;
+  flex-basis: 20%;
 }
 
 .navigation {
@@ -597,6 +597,7 @@ h2 {
 
 .description p {
   max-width: 720px;
+  font-size: 1.1rem;
 }
 
 .description-text {
