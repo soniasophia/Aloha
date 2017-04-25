@@ -15,6 +15,6 @@
 ## Personal Learnings
 - My understanding of flexbox was heavily explored in this project and suspect that I will use the layout module more efficiently as I gain more practice with other projects.
 
-- Handling background images takes a specific type of patience.
+- Handling background images takes a specific type of patience. Positioning, layering, and sizing in particular was tricky.
 
 - How to abstract code a little bit better for more efficient styling. Trying to be more mindful of this.
