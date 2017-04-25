@@ -516,10 +516,15 @@ input[type="submit"]:hover {
 
 .social-media li:hover {
   color: #e2574c;
+  cursor: pointer;
 }
 
 .contact {
   padding-top: 1%;
+}
+
+.contact a {
+  cursor: pointer;
 }
 
 .sm-name {
