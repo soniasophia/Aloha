@@ -531,6 +531,7 @@ input[type="submit"]:hover {
 
 h2 {
   font-size: 2.4rem;
+  margin: 1.5rem 0;
 }
 
 .top-bar {
@@ -543,7 +544,7 @@ h2 {
 
 .logo {
   order: 1;
-  flex-basis: 10%;
+  flex-basis: 20%;
 }
 
 .cart {
@@ -595,7 +596,10 @@ h2 {
 
 
 .description p {
-  width: 70%;
+  max-width: 720px;
+}
+
+.description-text {
   max-width: 720px;
 }
 
@@ -643,11 +647,15 @@ h2 {
   width: 50%;
 }
 
+.signup-box {
+  max-width: 720px;
+}
+
 .signup p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0 2%;
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
 }
 
 form.email {
@@ -680,6 +688,7 @@ input[type="submit"] {
   font-size: 1rem;
   line-height: 15px;
   padding-left: 4%;
+  width: 400px;
 }
 
 .social-media {
@@ -719,9 +728,7 @@ body, html {
   }
 
 .top-bar {
-  display: flex;
-  align-items: center;
-  margin: 0 8%;
+  max-width: 1240px;
 }
 
 .logo img {
