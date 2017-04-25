@@ -108,6 +108,12 @@ body {
   font-family: 'ralewaylight', sans-serif;
 }
 
+.container {
+    padding: 0 2%;
+    margin: 0 auto;
+    width: 100%;
+}
+
 :focus {
   outline: 0;
 }
@@ -119,7 +125,7 @@ section {
 h2 {
   text-align: center;
   font-family: 'playfair', serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   font-style: normal;
 }
@@ -177,7 +183,7 @@ h2 span {
   font-family: 'ralewaymedium', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: #e2574c;
   cursor: pointer;
   text-transform: uppercase;
@@ -249,7 +255,6 @@ a:hover {
 }
 
 .description {
-  padding: 40px;
   padding-bottom: 70px;
 }
 
@@ -257,7 +262,7 @@ a:hover {
   font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #2d2d2d;
   margin: 0 auto;
   text-align: center;
@@ -293,7 +298,7 @@ a:hover {
 
 .category-name {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: 500;
     height: auto;
     left: 50%;
@@ -414,7 +419,7 @@ a:hover {
   font-family: 'ralewaylight', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #fff;
   margin-bottom: 2%;
   text-align: center;
@@ -426,6 +431,7 @@ a:hover {
 .signup h2 {
   color: #fff;
   text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
+  font-size: 2.1rem;
 }
 
 input[type="email"] {
@@ -434,7 +440,7 @@ input[type="email"] {
     width: 100%;
     border: none;
     font-family: 'ralewaylight', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 input[type="email"]:focus {
@@ -458,7 +464,7 @@ input[type="submit"] {
     border: none;
     border-radius: 25px;
     font-family: 'ralewaymedium', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     outline: 0;
     position: absolute;
     right: .25rem;
@@ -475,10 +481,10 @@ input[type="submit"]:hover {
   font-family: 'playfair', serif;
   font-weight: normal;
   font-style: normal;
-  padding: 5%;
   line-height: 10px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  padding: 2rem 0;
 }
 
 .website-footer a {
@@ -590,6 +596,7 @@ h2 {
 
 .description p {
   width: 70%;
+  max-width: 720px;
 }
 
 .big-category {
@@ -644,7 +651,7 @@ h2 {
 }
 
 form.email {
-  width: 60%;
+  width: 70%;
 }
 
 input[type="email"] {
@@ -707,6 +714,10 @@ body, html {
     font-size: 16px;
   }
 
+  .container {
+    max-width: 1240px;
+  }
+
 .top-bar {
   display: flex;
   align-items: center;
@@ -719,11 +730,13 @@ body, html {
 
 .logo {
   padding-bottom: 0;
+  flex-basis: 20%;
 }
 
 .cart {
   width: 62px;
   padding-bottom: 0;
+  flex-basis: 20%;
 }
 
 .navigation a {
@@ -750,23 +763,27 @@ body, html {
   font-size: 4rem;
 }
 
-.description p {
-  width: 60%;
+.description-text {
+  width: 720px;
 }
+
+.description p {
+  width: 100%;
+  font-size: 1.2rem;
+  }
 
 .products-list {
   width: 25%;
 }
 
-.signup p {
-  padding-left: 26%;
-  padding-right: 26%;
-  margin: 0 auto;
-  width: 100%;
+.signup-box {
+  width: 720px;
 }
 
-form.email {
-  width: 40%;
+.signup p {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1.11rem;
 }
 
 .company-details {
