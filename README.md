@@ -1,3 +1,8 @@
+# Project 1: Aloha
+
+![Aloha](https://github.com/soniasophia/aloha-website/blob/master/Aloha-Website.png)
+Aloha website (Desktop)
+
 ## Technologies Used
 - Visual Studio Code for Mac (https://code.visualstudio.com/)
 - Git and Git Bash
