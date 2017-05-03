@@ -5,7 +5,7 @@ Aloha website (Desktop)
 
 ## Project Objective
 - Create a one-page, responsive website
-- Optimize for 3 widths: mobile, min-width: 600px and min-width: 1000px
+- Optimize for 3 widths: mobile, min-width: 600px and min-width: 1240px
 
 ## Technologies Used
 - Visual Studio Code for Mac (https://code.visualstudio.com/)
