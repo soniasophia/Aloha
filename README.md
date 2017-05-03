@@ -3,6 +3,10 @@
 ![Aloha](https://github.com/soniasophia/aloha-website/blob/master/Aloha-Website-01.png)
 Aloha website (Desktop)
 
+### Project Objective
+- Create a one-page, responsive website to filter top news stories from the New York Times API
+- Optimize for 3 widths: mobile, min-width: 600px and min-width: 1000px
+
 ## Technologies Used
 - Visual Studio Code for Mac (https://code.visualstudio.com/)
 - Git and Git Bash
