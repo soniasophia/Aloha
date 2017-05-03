@@ -1,6 +1,6 @@
 # Project 1: Aloha
 
-![Aloha](https://github.com/soniasophia/aloha-website/blob/master/Aloha-Website.png)
+![Aloha](https://github.com/soniasophia/aloha-website/blob/master/Aloha-Website-01.png)
 Aloha website (Desktop)
 
 ## Technologies Used
