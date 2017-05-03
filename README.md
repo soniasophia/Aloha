@@ -3,7 +3,7 @@
 ![Aloha](https://github.com/soniasophia/aloha-website/blob/master/Aloha-Website-01.png)
 Aloha website (Desktop)
 
-### Project Objective
+## Project Objective
 - Create a one-page, responsive website
 - Optimize for 3 widths: mobile, min-width: 600px and min-width: 1000px
 
