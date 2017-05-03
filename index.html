@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <metaname=“viewport” content=“width=device-width, initial-scale=1”>
+    <metaname="viewport" content="width=device-width, initial-scale=1">
     <title>Aloha Apparel Co.</title>
     <link rel="stylesheet" href="lib/flickity/flickity.min.css">
     <link rel="stylesheet" href="CSS/normalize.css">
@@ -19,6 +19,8 @@
       <div class="cart">
         <img src="./images/cart-icon.svg" class="cart" alt="Shopping Cart">
       </div>
+
+      <a class="screen-reader-text" href="#main">Skip to content</a>
     
       <nav class="navigation">
         <ul>
@@ -37,7 +39,7 @@
         </div>
       </section>
 
-
+  <main id="main" class="site-main" tabindex="-1">
     <section class="description" id="about">
       <div class="description-text container">
         <h2><span>Hand-Crafted</span> Styles</h2>
@@ -210,8 +212,10 @@
       </footer>
 
       <!--Scripts-->
+      <script src="javascript/tota11y.min.js"></script>
       <script src="lib/jquery-3.2.1.min.js"></script>
       <script src="lib/flickity/flickity.pkgd.min.js"></script> 
       <script type="text/javascript" src="javascript/main.js"></script>
+
      </body>
 </html>

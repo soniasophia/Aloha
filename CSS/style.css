@@ -103,6 +103,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 320px;
   font-size: 14px;
   color: #2d2d2d;
   font-family: 'ralewaylight', sans-serif;
@@ -812,4 +813,29 @@ body, html {
   margin-top: 0;
 }
 
+}
+
+
+/*Helper Classes */
+
+#main[tabindex="-1"]:focus {
+   outline: 0;
+}
+
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+
+.screen-reader-text:focus {
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000; /* above all content */
 }
