@@ -4,7 +4,7 @@
 Aloha website (Desktop)
 
 ### Project Objective
-- Create a one-page, responsive website to filter top news stories from the New York Times API
+- Create a one-page, responsive website
 - Optimize for 3 widths: mobile, min-width: 600px and min-width: 1000px
 
 ## Technologies Used
