@@ -138,6 +138,10 @@ h2 span {
 }
 
 .top-bar {
+    position: fixed;
+    z-index: 1;
+    max-width: 100%;
+    background: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -158,6 +162,9 @@ h2 span {
   max-width: 120px;
 }
 
+.nav-margin {
+  height: 5.6rem;
+}
 
 .navigation {
   align-self: center;
@@ -182,8 +189,6 @@ h2 span {
 .navigation a {
   text-decoration: none;
   font-family: 'ralewaymedium', sans-serif;
-  font-weight: normal;
-  font-style: normal;
   font-size: 0.9rem;
   color: #e2574c;
   cursor: pointer;
@@ -243,16 +248,12 @@ a:hover {
 .banner p.collection {
   font-size: 1.2rem;
   font-family: 'ralewaymedium', sans-serif;
-  font-weight: normal;
-  font-style: normal;
   text-transform: uppercase;
 }
 
 .banner p.season {
   font-size: 2.3rem;
   font-family: 'playfair', serif;
-  font-weight: normal;
-  font-style: normal;
 }
 
 .description {
@@ -261,8 +262,6 @@ a:hover {
 
 .description p {
   font-family: 'ralewaylight', sans-serif;
-  font-weight: normal;
-  font-style: normal;
   font-size: 1rem;
   color: #2d2d2d;
   margin: 0 auto;
@@ -731,11 +730,11 @@ body, html {
   }
 
   .container {
-    max-width: 1240px;
+    min-width: 1240px;
   }
 
 .top-bar {
-  max-width: 1240px;
+  min-width: 1240px;
 }
 
 .logo img {
