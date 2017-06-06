@@ -371,6 +371,10 @@ a:hover {
   border-right: 0;
 }
 
+.products {
+  margin-bottom: 3.5rem;
+}
+
 .products-list {
   justify-content: center;
   display: block;
