@@ -140,6 +140,7 @@ h2 span {
 .top-bar {
     position: fixed;
     z-index: 1;
+    min-width: 320px;
     max-width: 100%;
     background: white;
     display: flex;
@@ -200,12 +201,12 @@ a:hover {
 }
 
 .cart {
-    align-self: flex-end;
-    cursor: pointer;
-    flex: 0 1 50%;
-    text-align: right;
-    width: 50px;
-    padding-bottom: 1%;
+  align-self: flex-end;
+  cursor: pointer;
+  flex: 0 1 50%;
+  text-align: right;
+  width: 50px;
+  padding-bottom: 1%;
 }
 
 .cart img {
@@ -218,10 +219,8 @@ a:hover {
   
   background: 
   linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(100,100,100,0.25)),
-  
   url('../images/banner-girl.png') no-repeat center 60px,
   url('../images/flower-bkgd.jpg') repeat-x top;
-  
   background-size: cover, 150px 370px, cover;
   height: 400px;
   position: relative;  
