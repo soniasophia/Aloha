@@ -217,6 +217,26 @@ a:hover {
   max-width: 100%;
 }
 
+.add-item {
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+}
+
+.itemCount {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 12px;
+  text-align: center;
+  background: #b64036;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
 .banner {
   width: 100%;
   background: 

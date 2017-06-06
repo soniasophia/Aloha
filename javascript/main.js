@@ -1,5 +1,4 @@
 //Products Gallery Carousel
-
 $(function (){
   $('.products-container').flickity({
     cellAlign: 'left',
@@ -7,9 +6,6 @@ $(function (){
     contain: true,
     autoPlay: true
  });
-
-
-
 
 //Smooth Scrolling
 
@@ -49,11 +45,9 @@ $('a[href*="#"]')
     }
   });
 
+// Email Sign-up
 
-
-//Email Sign-up
-
-  $('.email').on('submit', function (event) {
+  $('.email').on('submit', function(event) {
     event.preventDefault ();
     if ( $('#emailForm').val() ==='' ) {
       alert("Please enter a valid email.")
@@ -61,4 +55,13 @@ $('a[href*="#"]')
       alert("Thanks for subscribing!");
     }
   });
+});
+
+// Add Items to Cart
+
+var itemCount = 0;
+
+$('.add-item').click(function() {
+  itemCount++;
+  $('.itemCount').html(itemCount).css('display', 'block');
 });
